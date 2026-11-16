@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying paper, please cite it as below."
+title: "Chinukwe: a Lean 4 formalization of a coupled barrier-distance dynamics core"
+type: software
+authors:
+  - family-names: "Chinukwe"
+    given-names: "Chanda"
+version: "0.2.0"
+date-released: "2026-11-08"
+license: Apache-2.0
+repository-code: "https://github.com/REPLACE-ME/chinukwe-lean"
+# After the first Zenodo release, add:  doi: "10.5281/zenodo.XXXXXXX"
+# Commit to cite: REPLACE-WITH-COMMIT-HASH
+keywords:
+  - Lean 4
+  - Mathlib
+  - formal verification
+  - dynamical systems
+  - positive systems
+  - systemic risk
+abstract: >-
+  Machine-checked core of the Chinukwe Formalism: reference-shifted coupled hazard model,
+  proportional domain weights, coupled critical-distance fixed point, and cascade-stability
+  thresholds (discrete and continuous time), verified against Mathlib with an automated
+  axiom audit.

@@ -1,0 +1,19 @@
+name = "chinukwe"
+defaultTargets = ["Chinukwe", "Conjectures"]
+
+# PIN after the first successful build: replace "master" with the Mathlib tag or commit
+# that matches your toolchain, then commit lake-manifest.json.
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "master"
+
+# Core library: everything under Chinukwe/, including Chinukwe.Empirical.
+# The boundary "core never imports Empirical" is enforced by scripts/check.sh.
+[[lean_lib]]
+name = "Chinukwe"
+globs = ["Chinukwe", "Chinukwe.+"]
+
+# Unproved targets. Nothing in Chinukwe may import this library.
+[[lean_lib]]
+name = "Conjectures"
