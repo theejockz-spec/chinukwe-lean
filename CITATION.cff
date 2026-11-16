@@ -7,7 +7,7 @@ authors:
     given-names: "Chanda"
 version: "0.2.0"
 date-released: "2026-11-08"
-license: Apache-2.0
+All rights reserved
 repository-code: "https://github.com/REPLACE-ME/chinukwe-lean"
 # After the first Zenodo release, add:  doi: "10.5281/zenodo.XXXXXXX"
 # Commit to cite: REPLACE-WITH-COMMIT-HASH
